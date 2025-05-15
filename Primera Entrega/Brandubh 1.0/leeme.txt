@@ -1,0 +1,49 @@
+He seguido la jerarquia que marcaba la recomendacion del profesro es decir primero lo que hecho es hacer el level 1 que seria:
+La clase Color que no he agregado ningun metodo adicional.
+La clase Coordenada no he agregado ningun metodo adicional.
+La clase Sentido no he agregado ningun metodo adicional.
+La clase TipoCelda no he agregado ningun metodo adicional.
+la clase TipoPieza no he agregado ningun metodo adicional.
+Despues he seguido con el level 2
+La clase Traductor no he agregado ningun metodo adicional pero he hecho un cambio en esta clase respecto a la ultima entrega el metodo que he hecho
+cambios es en consultarCoordenadaParaNotacionAlgebraica ya que no me funciona el juego por culpa de este metodo.
+Despues he seguido con el level 3
+La clase pieza no he agregado ningun metodo adicional.
+Despues he seguido con el level 4
+La clase Celda no he agregado ningun metodo adicional.
+La clase Jugada no he agregado ningun metodo adicional.
+Despues he seguido con el level 5
+La clase Tablero no he agregado ningun metodo adicional
+una observacion en tablero he añadido una constante que es siete ya que representa la dimension del tablero.
+Despues he seguido con el level 6,7,8
+Aqui he añadido metodos adicionales ya que asi lo modulado y no quedan metodos mas largos
+1- celdasLibres es de tipo booleano y aqui verifico si la celda origen y destino estan libres.
+2- estaAlLado devuelve un booleano verifico si las dos coordenadas estan a lado
+3- estaJuntoAProvincia es de tipo booleano verifico si esta cercano alguna provincia.
+4- estaCasiAllado devuelve un booleano en este caso lo que hago es verificar si estan separadas por una casilla h o v
+5- estaCasiJuntoAProvincia devuelve un booleano lo que hace es verificar si esta casi a lado de la provincia tanto h o v
+6- contarAtacantes devuelvo un int el numero de atacantes en un conjunto de celdas contiguas.
+7- contarAtacanteVertical devuelve un entero lo que hace es contar el numero de atacantes en las celdas contiguas en la direccion vertical
+8- contarAtacantesHorizontales devuelve un entero que decuenve lo mismo que la anterior pero esta vez en horizontal.
+9- contarDefensoresVetical devuelve un numero de defensores en las deldas en direccion vertical.
+10- contarDefensoresHorizontales devuelve un numero entero lo que haces lo mismo que el anterior metodo pero esta vez en horizontal.
+11- contarDefensores devuelvo un entero que en este caso devolveria los defensores que hay en el tablero
+12- esPieza devuelvo un booleano aqui lo que verifico es si la celda contiene pieza.
+13- esAtacante devuelve un booleano lo que hace es verificar si esa celda es un atacante.
+14- esDefensor devuelve un booleano lo que hace es verificar si esa celda es un defensor.
+15- posicionRey lo que devuelve un objeto coordenada que lo que haces saber donde esta el rey en el tablero en todo momento.
+//legamos los metodos private de capturar los que he creado es verificar todos los casos posibles.
+16- capturarDefensores devuelve vacio y lo que hace este metodo es realizar capturas de defensores pero si el rey esta o no en el trono
+17- capturarAtacantes devuelve vacio lo que hace es capturar atacantes con la misma condicion del metodo anterior.
+18- capturaDefensoresTodasDirecciones devuelve un vacio y lo que hace capturar al defensor en todas las posiciones cercanas
+19- capturarDefensoresContraElTrono devuelve vacio realiza la captura de un defensor e las cercanias del trono.
+20- capturaDefensorContraTrono devuelve vacio la captura de un defensor contra una trono cercanas.
+21- capturarDefensorContraProvincia devuelve un vacio la captura de un defensor contra la provincia cercana.
+22- capturaAtacantesTodasDirecciones realiza en todas las direcciones captura de los atacantes.
+23- capturaAtacanteContraElTrono devuelve vacio este metodo loq ue hace es capturar al atacante contra el trono
+24- vecino devuelve el objeto coordenada del vecino en la direccion especifica desde una coordenada dada
+25- vecina devuelve un objeto celda a una coordenada en una direccion especifica
+26- capturarDefensor devuelve vacio captura un defensor si se encuentra en una posicion especifica en relacion con una direccion dada.
+27- capturarAtacante devuelve vacio y hace lo mismo que el anterior metodo.
+28- capturaDefensorRodeo devuelve vacio esto lo que hace esque si el defensor esta rodeado por dos atacantes.
+29- capturaAtacanteRodeo devuelve vacio y lo que hace es lo mismo que el anterior metodo pero esta vez es rodeado por dos defensores.
